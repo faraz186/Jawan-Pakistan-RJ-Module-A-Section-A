@@ -3,28 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Class 06</title>
+    <title>Forms</title>
 </head>
 <body>
 
-    <form action="http://www.example.com/subscribe.php"> 
+        <form action="http://www.example.com/subscribe.php"> 
 
-        Enter name
+        <label>Enter name</label>
 
-        <input maxlength="15" type="text">
-
-        <br>
-        <br>
-
-        Enter email
-
-        <input  type="text">
+        <input maxlength="15" size="25" type="text">
 
         <br>
         <br>
 
-        Enter password
-        <input  type="password">
+        <label>Enter email</label>
+
+        <input type="email">
+
+        <br>
+        <br>
+
+        <label>Enter password</label>
+        <input type="password">
 
         <br>
         <br>
@@ -34,13 +34,13 @@
         <br>
         <br>
 
-        Select your gender
+        <label>Select your gender</label>
 
-        <input name="a" type="radio">Male
+        <input name="gender" type="radio">Male
 
-        <input checked  name="a"  type="radio">Female
+        <input checked  name="gender"  type="radio">Female
 
-        <input  name="a" type="radio">Others 
+        <input  name="gender" type="radio">Others 
 
         <br>
         <br> 
@@ -49,11 +49,11 @@
 
         Select your courses
 
-        <input name="b"  type="checkbox">html
+        <input type="checkbox">html
 
-        <input name="b"  type="checkbox">css
+        <input type="checkbox">css
 
-        <input name="b"  type="checkbox">js
+        <input type="checkbox">js
 
         <br>    
         <br>
@@ -64,7 +64,6 @@
                 <option>JS</option>
                 <option>REACT JS</option>
                 <option disabled selected="selected">Choose an option</option>
-
         </select>
 
         <br>
@@ -77,55 +76,64 @@
 
         <input  disabled value="faraz" type="text">
 
-            <button>Submit Form</button> 
+        <button>Submit Form</button> 
 
-             <input src="https://t4.ftcdn.net/jpg/00/28/27/95/360_F_28279558_SqNXoZWsQLfWYVxyKe9hVzZ49dJtKLsc.jpg" width="150" type="image">
+        <input src="https://t4.ftcdn.net/jpg/00/28/27/95/360_F_28279558_SqNXoZWsQLfWYVxyKe9hVzZ49dJtKLsc.jpg" width="150" type="image">
 
+        <input type="submit">
 
-            <input type="submit">
-
-             <input type="date">
+        <input type="date">
             
-            <input type="url">
+        <input type="url">
 
-<label for="b">Enter name</label>
-            <input required id="b" type="text">
-            <br>
-            <br>
-            <label for="b">Enter email</label>
-            <input required id="b" type="email">
+        <label for="name">Enter name</label>
+            
+        <input required id="name" type="text">
+            
+        <br>
+        <br>
+            
+        <label for="email">Enter email</label>
+        <input required id="email" type="email">
 
-            <br>
-            <br>
+        <br>
+        <br>
 
-            <label for="b">Enter password</label>
-            <input required id="b" type="password">
-<br>
-<br>
-            <button>Submit form</button>
-
-
+        <label for="password">Enter password</label>
+        <input required id="password" type="password">
+            
+        <br>
+        <br>
+            
+        <button>Submit form</button>
+            
     </form>
 
     <fieldset>
+        
         <legend><b>Student Details></b></legend>
+        
         <br>
+        
         <label for="b">Enter name</label>
-            <input required id="b" type="text">
-            <br>
-            <br>
-            <label for="b">Enter email</label>
-            <input required id="b" type="email">
+        <input required id="b" type="text">
+        
+        <br>
+        <br>
+        
+        <label for="b">Enter email</label>
+        <input required id="b" type="email">
 
-            <br>
-            <br>
+        <br>
+        <br>
 
-            <label for="b">Enter password</label>
-            <input required id="b" type="password">
-            <br>
-            <br>
+        <label for="b">Enter password</label>
+        <input required id="b" type="password">
+        <br>
+        <br>
 
-            <button>Submit</button>
+        <button>Submit</button>
+        
     </fieldset>
 
 </body>
