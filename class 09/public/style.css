@@ -1,12 +1,12 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap');
 
-/* h1{
+h1{
     color: blue;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-size: 5em;
-} */
+}
 
-/* h1{
+h1{
     font-size: 20px;
     font-family: 'Space Grotesk', sans-serif;
 }
@@ -14,18 +14,18 @@
 p{
     font-weight: lighter;
     font-style:italic;
-} */
+}
 
-/* p{
+p{
     text-transform: capitalize;
-} */
+}
 
-/* .link{
+.link{
 text-decoration: none;
 color: black;
-} */
+}
 
-/* .para{
+.para{
     line-height: 2.3em;
     text-align: justify;
     color: red;
@@ -33,25 +33,25 @@ color: black;
     text-indent:20px;
     letter-spacing: 0.5em;
     word-spacing: 1.6em;
-} */
-/* 
+}
+
 h1{
     text-shadow: 5px 5px 10px red;
-} */
+}
 
-/* p:first-letter{
+p:first-letter{
     font-size: 50px;
     color: red;
-} */
+}
 
-/* p:first-line{
+p:first-line{
     color: blue;
-} */
+}
 
-/* p span{
+p span{
     font-size: 50px;
     color: red;
-} */
+}
 
 p:first-letter{
     color: red;
