@@ -5,6 +5,7 @@
 
 p:first-line{
     color: red;
+    background-color:aqua;
   
 }
 
@@ -19,6 +20,7 @@ a:link{
 
 a:visited{
     color: brown;
+    background-color:aqua;
 }
 
 
