@@ -28,11 +28,13 @@ button:hover{
     border: none;
 }
 
-input:focus{
+input:focus
+{
     background-color: red;
 }
 
-p[class]{
+p[class]
+{
     color: green;
 }
 
@@ -40,11 +42,13 @@ p[class="para1"]{
     color: blue;
 }
 
-.para1para2{
+.para1para2
+{
     font-family: monospace;
 }
 
-p[class~="para2"]{
+p[class~="para2"]
+{
 background-color: aqua;
 }
 
@@ -52,7 +56,9 @@ background-color: aqua;
 img{
     width: 100%;
 }
-.main{
+
+.main
+{
     border: 15px solid green;
     min-width: 300px;
     max-width: 700px;
@@ -65,23 +71,25 @@ img{
     overflow: scroll;
 } 
 
-/* p{
+p
+{
     border: 5px outset blue;
     border-top-color: green;
     border-right-color: orangered;
     border-bottom-color: purple;
-} */
+}
 
 .main{
     border: 5px solid red;
     margin: 10px;
 }
-p{
+
+p
+{
     border: 5px solid purple;
-    /* padding: 50px 10px;
+    padding: 50px 10px;
     padding-top: 50px;
     padding-bottom: 50px;
     padding-right: 50px;
-    padding-left: 50px; */
-
+    padding-left: 50px;
 }
