@@ -3,50 +3,52 @@
     padding:0;
 }
 
-/* p:first-line{
+p:first-line{
     color: red;
   
-} */
+}
 
-/* p span{
+p span{
     color: red;
     font-size: 40px;
-} */
+}
 
-/* a:link{
+a:link{
     color: green;
 }
 
 a:visited{
     color: brown;
-} */
-/* 
+}
+
+
 button:hover{
     background-color: orchid;
     color: white;
     border: none;
-} */
+}
 
-/* input:focus{
+input:focus{
     background-color: red;
-} */
+}
 
-/* p[class]{
+p[class]{
     color: green;
-} */
+}
 
-/* p[class="para1"]{
+p[class="para1"]{
     color: blue;
-} */
+}
 
-/* .para1para2{
+.para1para2{
     font-family: monospace;
-} */
+}
 
-/* p[class~="para2"]{
+p[class~="para2"]{
 background-color: aqua;
-} */
-/* 
+}
+
+
 img{
     width: 100%;
 }
@@ -61,7 +63,7 @@ img{
     width: 400px;
     max-height: 200px;
     overflow: scroll;
-}  */
+} 
 
 /* p{
     border: 5px outset blue;
