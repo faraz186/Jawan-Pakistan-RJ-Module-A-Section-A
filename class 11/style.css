@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.icon1{
+    color: red;
+    font-size: 50px;
+}
+
+.icon2{
+    color: green;
+    font-size: 50px;
+}
+
+.icon3{
+    color: blue;
+    font-size: 50px;
+}
+
+
+.para{
+    border: 2px solid #8b008b;
+    border-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    text-shadow: 10px 5px 5px black;
+    box-shadow: 10px 5px 10px darkmagenta;
+    width: 300px;
+    padding: 5px;
+    margin: 30px auto;
+}
+
+ul{
+   margin: 50px;
+} 
+
+li{
+    list-style: inside lower-alpha;
+}
+
+a{
+    background-color: rgb(228, 228, 125);
+    display: block;
+    padding: 50px;
+}
