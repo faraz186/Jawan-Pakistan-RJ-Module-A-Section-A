@@ -1,0 +1,70 @@
+@import url('./style2.css');
+
+p{
+    cursor:move;
+}
+
+input.email{
+    background-image: url("https://1000logos.net/wp-content/uploads/2021/05/Gmail-logo.png");
+    background-size: 32px;
+    background-repeat: no-repeat;
+    padding-left: 28px;
+    width: 120px;
+}
+
+body{
+    background-color: rgb(162, 162, 249);
+    height: 1500px;
+}
+
+.red{
+    background-color: red;
+    height: 50px;
+    width: 260px;
+    float: left;
+}
+
+.blue{
+    background-color: blue;
+    height: 50px;
+    width: 120px;
+    float: left;
+    
+}
+
+p{
+    clear: both;
+}
+.black{
+    background-color: rgb(119, 115, 115);
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    margin: 15px;
+}
+
+.white{
+    background-color: white;
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    margin: 15px;
+        
+}
+
+img{
+   position: fixed;
+    top: 20px;
+}
+
+
+.para1{
+    color: red;
+}
+
+.main{
+    background-image: url("https://images.unsplash.com/photo-1699831545259-06cc19ce0eac?q=80&w=1632&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+    height: 400px;
+    background-attachment: fixed;
+}
