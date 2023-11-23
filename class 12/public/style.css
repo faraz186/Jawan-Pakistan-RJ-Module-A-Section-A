@@ -1,0 +1,104 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+ul{
+    background-color: rgb(120, 111, 111);
+    padding: 20px;
+}
+
+.heading{
+    font-size: 26px;
+    margin-right: 250px;
+}
+
+.heading span{
+    color: red;
+}
+li{
+    color: white;
+    display: inline;
+    padding: 25px;
+
+}
+
+span{
+    color: red;
+} */
+
+/* table{
+    width: 800px;
+    border: 2px groove grey;
+    border-spacing: 5px;
+}
+
+th,td{
+    border: 2px solid grey;
+    padding: 5px;
+    text-align: center;
+}
+
+th{
+    background-color: rgb(253, 204, 140);
+    font-size: 20px;
+}
+
+tr.even{
+    background-color: rgb(236, 205, 163);
+}
+
+tr:hover{
+    background-color: grey;
+} */
+
+
+body{
+    background-image: url("https://wallpapercave.com/wp/wp7830226.jpg");
+    background-size: cover;
+}
+input{
+    margin: 5px;
+    padding: 5px;
+    font-size: 22px;
+    border-color: blue;
+}
+
+button{
+    margin: 5px;
+    background-color: royalblue;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+}
+
+input.email{
+    background-image: url("https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-email-512.png");
+    background-size: 35px;
+    background-repeat: no-repeat;
+    padding-left: 38px;
+}
+
+input.password{
+    background-image: url("https://icons.veryicon.com/png/o/miscellaneous/dh_report/login-page-password.png");
+    background-size: 35px;
+    background-repeat: no-repeat;
+    padding-left: 38px;
+}
+
+fieldset{
+    width: 500px;
+    margin: auto;
+    border-radius: 5px;
+    border-color: red;
+    text-align: center;
+}
+
+legend{
+    background-color: wheat;
+    padding: 5px;
+    border-radius: 3px;
+    text-align: center;
+}
