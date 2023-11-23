@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    width: 50%;
+    margin: auto;
+    border: 5px dashed black;
+    border-right: none;
+}
+.main{
+    display: flex;
+    background-color: yellow;
+    width: 900px;
+    height: 900px;
+   
+
+}
+.divone{
+    background-color: rgb(137, 98, 26);
+    height: 100px;
+    color: white;
+    font-size: 40px;
+    width: 200px;
+   order: 3;
+}
+
+.divtwo{
+    background-color: red;
+    height: 250px;
+    align-self: center;
+    width: 250px;
+    color: white;
+    font-size: 40px;
+
+}
+
+.divthree{
+    background-color: green;
+    height: 100px;
+    color: white;
+    font-size: 40px;
+    width: 200px;
+
+}
+
+.divfour{
+    background-color: rgb(35, 35, 108);
+    height: 250px;
+    align-self: flex-end;
+    color: white;
+    font-size: 40px;
+    width:200px;
+
+}
+
+.main{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+img{
+    width: 100%;
+}
+.carc1{
+    width: 400px;
+    border: 5px groove green;
+    margin-top: 25px;
+}
